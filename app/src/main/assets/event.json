@@ -1,0 +1,8 @@
+{"4-4":{"ACTION":"打一桶水","GOT":"A_BUCKET_OF_WATER","UNIT":"1"},
+  "6-4-1-1":{"ACTION":"捡起出现的500文钱","GOT":"MONEY","UNIT":"500"},
+  "6-4-2-1":{"ACTION":"获得许多王寡妇的好感","GOT":"WIDOW_FAVOR","UNIT":"100"},
+  "6-4-3-1":{"ACTION":"获得10点力量上升","GOT":"STR_UP","UNIT":"10"},
+  "H6-4":{"ACTION":"获得贪婪诅咒","GOT":"GREED","UNIT":"1"},
+  "H6-3-4":{"ACTION":"获得贪婪诅咒","GOT":"GREED","UNIT":"1"},
+  "H6-3-5":{"ACTION":"获得贪婪诅咒","GOT":"GREED","UNIT":"1"},
+  "RECRUIT":{"ACTION":"捡起补给品","GOT":"RECRUIT_THINGS","UNIT":"1"}}

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MudServer</string>
+
+    <string name="mod_text">模式：</string>
+    <string name="survival_text">大逃杀</string>
+    <string name="playernum_text">玩家人数：</string>
+    <string name="playernum_hint_text">请输入玩家数</string>
+    <string name="create_game_text">创建游戏</string>
+
+    <string name="to_all_text">所有人</string>
+
+    <string name="turn_text">回合：%1$d</string>
+    <string name="name_text">角色：%1$s</string>
+    <string name="con_text">体质（生命）：%1$d</string>
+    <string name="dex_text">敏捷（行动速度）：%1$d</string>
+    <string name="str_text">力量（攻击力）：%1$d</string>
+    <string name="hungry_text">饥饿值（行动力）：%1$d</string>
+    <string name="cost_text">休息时消耗饥饿值：%1$d</string>
+    <string name="physical_text">物理伤害百分比：%1$f</string>
+    <string name="drug_text">使用回复类药物效果：%1$f</string>
+    <string name="npc_text">NPC好感度增长效果：%1$f</string>
+    <string name="thread_text">怪物的仇恨值：%1$f</string>
+    <string name="des_text">描述：%1$s</string>
+    <string name="address_text">地址：%1$s</string>
+    <string name="poison_text">毒雾：%1$d</string>
+</resources>

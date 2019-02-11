@@ -1,0 +1,34 @@
+{
+  "1":{"NAME":"鹿","DESC":"哺乳纲偶蹄目下的一科动物。体型大小不等，为有角的反刍类。","CON":"20","STR":"10","DEX":"20","DROPOUT":[{"PERCENT":"3","THING":[{"ID":"A_DEER_SKIN","UNIT":"1"}]},{"PERCENT":"10","THING":[{"ID":"A_DEER_MEAT","UNIT":"1"}]},{"PERCENT":"7","THING":[{"ID":"PILOSE_ANTLER","UNIT":"1"}]}],"FEATURE":["NONE"]},
+  "2":{"NAME":"兔子","DESC":"哺乳类兔形目兔科下属所有的属的总称。","CON":"5","STR":"5","DEX":"20","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"A_RABBIT_SKIN","UNIT":"1"}]},{"PERCENT":"10","THING":[{"ID":"A_RABBIT_MEAT","UNIT":"1"}]}],"FEATURE":["NONE"]},
+  "26":{"NAME":"疯兔","DESC":"兔子急了咬人，兔子疯了咬死人。","CON":"10","STR":"10","DEX":"20","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"A_RABBIT_SKIN","UNIT":"1"}]},{"PERCENT":"10","THING":[{"ID":"A_RABBIT_MEAT","UNIT":"2"}]}],"FEATURE":["NONE"]},
+
+  "3":{"NAME":"偷瓜贼","DESC":"附近的小流氓，靠小偷小摸为生。","CON":"15","STR":"15","DEX":"15","DROPOUT":[{"PERCENT":"2","THING":[{"ID":"MONEY","UNIT":"3"}]},{"PERCENT":"3","THING":[{"ID":"MONEY","UNIT":"2"}]},{"PERCENT":"5","THING":[{"ID":"MONEY","UNIT":"1"}]}],"FEATURE":["NONE"]},
+  "25":{"NAME":"流氓头子","DESC":"小流氓的老大，大金链子小金表，一天三顿小烧烤。","CON":"30","STR":"20","DEX":"20","DROPOUT":[{"PERCENT":"2","THING":[{"ID":"MONEY","UNIT":"30"}]},{"PERCENT":"3","THING":[{"ID":"MONEY","UNIT":"20"}]},{"PERCENT":"5","THING":[{"ID":"MONEY","UNIT":"10"}]}],"FEATURE":["NONE"]},
+  "4":{"NAME":"猹","DESC":"喜欢偷吃瓜的动物，当地文盲叫它作‘猹’。","CON":"10","STR":"10","DEX":"25","DROPOUT":[{"PERCENT":"8","THING":[{"ID":"A_BADGER_SKIN","UNIT":"1"}]},{"PERCENT":"10","THING":[{"ID":"A_BADGER_MEAT","UNIT":"1"}]},{"PERCENT":"2","THING":[{"ID":"WATERMELON","UNIT":"1"}]}],"FEATURE":["NONE"]},
+  "5":{"NAME":"田鼠","DESC":"喜欢偷吃粮食的啮齿类动物。","CON":"3","STR":"3","DEX":"30","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"A_RAT_SKIN","UNIT":"1"},{"PERCENT":"10","THING":[{"ID":"A_RAT_MEAT","UNIT":"1"}]}]}],"FEATURE":["NONE"]},
+
+  "6":{"NAME":"老虎","DESC":"大型猫科动物，攻击性较强。","CON":"40","STR":"40","DEX":"30","DROPOUT":[{"PERCENT":"8","THING":[{"ID":"A_TIGER_SKIN","UNIT":"1"}]},{"PERCENT":"10","THING":[{"ID":"A_TIGER_MEAT","UNIT":"1"}]},{"PERCENT":"2","THING":[{"ID":"A_TIGER_BONE","UNIT":"1"}]}],"FEATURE":["PENETRATION"]},
+  "7":{"NAME":"熊","DESC":"还算温和的食肉目熊科动物，但是受到挑衅或遇到危险时，容易暴怒，打斗起来非常凶猛。","CON":"50","STR":"50","DEX":"20","DROPOUT":[{"PERCENT":"8","THING":[{"ID":"A_BEAR_SKIN","UNIT":"1"}]},{"PERCENT":"10","THING":[{"ID":"A_BEAR_MEAT","UNIT":"1"}]},{"PERCENT":"2","THING":[{"ID":"A_TIGER_GALL","UNIT":"1"}]}],"FEATURE":["CRIT"]},
+  "8":{"NAME":"山贼","DESC":"山中贼寇，聚而为患。","CON":"20","STR":"20","DEX":"20","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"SKULL_OF_CATERAN","UNIT":"1"}]},{"PERCENT":"3","THING":[{"ID":"CRABSTICK","UNIT":"1"}]},{"PERCENT":"3","THING":[{"ID":"WOODEN_SHIELD","UNIT":"1"}]},{"PERCENT":"4","THING":[{"ID":"WOODEN_ARMOR","UNIT":"1"}]}],"FEATURE":["NONE"]},
+  "9":{"NAME":"山贼头目","DESC":"山贼中的小头目，身体强壮，孔武有力。","CON":"30","STR":"30","DEX":"25","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"SKULL_OF_CATERAN'S_LEADER","UNIT":"1"}]},{"PERCENT":"3","THING":[{"ID":"LEFT_ADAE","UNIT":"1"}]},{"PERCENT":"3","THING":[{"ID":"RIGHT_ADAE","UNIT":"1"}]},{"PERCENT":"4","THING":[{"ID":"WOODEN_ARMOR","UNIT":"1"}]}],"FEATURE":["MULTIPLE"]},
+  "12":{"NAME":"山大王","DESC":"山寨中的大王，统领一众山贼。","CON":"100","STR":"80","DEX":"50","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"SKULL_OF_CATERAN'S_CHIEF","UNIT":"1"}]}],"FEATURE":["NONE"]},
+
+  "10":{"NAME":"强盗","DESC":"山野强人，潜伏于草丛之中，伺机抢夺来往客商的财物。","CON":"50","STR":"50","DEX":"25","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"SKULL_OF_ROBBER","UNIT":"1"}]},{"PERCENT":"3","THING":[{"ID":"MACE","UNIT":"1"}]},{"PERCENT":"3","THING":[{"ID":"CHOPPER","UNIT":"1"}]},{"PERCENT":"4","THING":[{"ID":"BOLA","UNIT":"1"}]}],"FEATURE":["NONE"]},
+  "11":{"NAME":"强盗头目","DESC":"强盗中的小头目，身体强壮，力大无穷。","CON":"99","STR":"99","DEX":"25","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"SKULL_OF_ROBBER'S_LEADER","UNIT":"1"}]},{"PERCENT":"1","THING":[{"ID":"BLUNDERBUSS","UNIT":"1"}]},{"PERCENT":"9","THING":[{"ID":"MONEY","UNIT":"100"}]}],"FEATURE":["NONE"]},
+  "13":{"NAME":"强盗大头领","DESC":"一股强盗的大头领，管理手下一众强盗。","CON":"150","STR":"150","DEX":"50","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"SKULL_OF_ROBBER'S_CHIEF","UNIT":"1"}]},{"PERCENT":"5","THING":[{"ID":"JUSTICE","UNIT":"1"}]}],"FEATURE":["HEMOPHAGIA"]},
+
+  "14":{"NAME":"魔兵","DESC":"魔界杂兵，已然可以为祸一方。","CON":"200","STR":"200","DEX":"25","DROPOUT":[{"PERCENT":"5","THING":[{"ID":"MAGE_ARMOR","UNIT":"1"}]},{"PERCENT":"5","THING":[{"ID":"MAJIN","UNIT":"1"}]}],"FEATURE":["NONE"]},
+  "15":{"NAME":"魔将","DESC":"魔界大将，一身魔气森然。","CON":"500","STR":"500","DEX":"50","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"MAGE_ARMOR","UNIT":"1"}]},{"PERCENT":"10","THING":[{"ID":"MAJIN","UNIT":"1"}]}],"FEATURE":["NONE"]},
+  "16":{"NAME":"魔尊","DESC":"一代魔尊，邪气凛然。","CON":"999","STR":"999","DEX":"99","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"COMPLETE_VICTORY","UNIT":"1"}]}],"FEATURE":["ACCURATE"]},
+
+  "17":{"NAME":"刘家大郎","DESC":"一个膀大腰圆，一看起来就力大无穷的壮汉。","CON":"100","STR":"99","DEX":"30","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"MONEY","UNIT":"100"}]}],"FEATURE":["NONE"]},
+  "18":{"NAME":"刘家二郎","DESC":"浓眉大眼，双儿垂肩的大汉，正对你怒目而视。","CON":"50","STR":"50","DEX":"30","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"MONEY","UNIT":"200"}]}],"FEATURE":["NONE"]},
+  "19":{"NAME":"刘家三郎","DESC":"钢筋铁骨，威风凛凛的壮汉。","CON":"200","STR":"50","DEX":"30","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"MONEY","UNIT":"300"}]}],"FEATURE":["NONE"]},
+  "20":{"NAME":"刘家四郎","DESC":"正对你吐口水的壮汉。","CON":"100","STR":"60","DEX":"30","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"MONEY","UNIT":"400"}]}],"FEATURE":["NONE"]},
+  "21":{"NAME":"刘家五郎","DESC":"手持白酒瓶和火把的壮汉，这会已经含了一口白酒。","CON":"100","STR":"60","DEX":"30","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"MONEY","UNIT":"500"}]}],"FEATURE":["NONE"]},
+  "22":{"NAME":"刘家六郎","DESC":"上蹿下跳的精瘦汉子。","CON":"100","STR":"50","DEX":"98","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"MONEY","UNIT":"600"}]}],"FEATURE":["NONE"]},
+  "23":{"NAME":"刘家七郎","DESC":"正在盘葫芦的孩子。","CON":"10","STR":"10","DEX":"30","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"MONEY","UNIT":"700"}]}],"FEATURE":["NONE"]},
+
+  "24":{"NAME":"李大壮的执念","DESC":"老实人的执念相当可怕。","CON":"350","STR":"350","DEX":"50","DROPOUT":[{"PERCENT":"10","THING":[{"ID":"MONEY","UNIT":"100"},{"ID":"TOWER","UNIT":"1"}]}],"FEATURE":["NONE"]}
+}
